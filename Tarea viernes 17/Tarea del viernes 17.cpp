@@ -28,7 +28,7 @@ int main() {
 	std::cout << g << "\n";
 
 	//2.17
-	//escribir  un programa que que imprima los caracteres v a z en la misma línea que un par de adyacentes se parados por un espacio VXYZ la uno la dos y la 3
+	//escribir  un programa que que imprima los caracteres v a z en la misma lÃ­nea que un par de adyacentes se parados por un espacio VXYZ la uno la dos y la 3
 	for (char g = 86; g < 91; g++) {
 		std::cout << g;
 	}
@@ -96,9 +96,13 @@ int main() {
 	std::cout << "La multiplicacion de esos numeros es: \n";
 	g = a * b * c;
 	std::cout << g << "\n";
-	std::cout << "la diferencia de esos 2 numeros es: \n";
-	g = a - b;
+	std::cout << "la diferencia de esos 3 numeros es: \n";
+	g = a - b- c;
 	std::cout << g << "\n";
+	std::cout << "El promedio de esos 3 numeros es : \n";
+	g = a + b + c;
+	e=g/3;
+	std::cout << e << "\n";
 
 	if (a > b&& b > c) {
 		std::cout << "el mayor es: \n" << a;
