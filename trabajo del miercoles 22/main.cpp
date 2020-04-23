@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cstdio>
 using namespace std;
 
 int main()
@@ -25,11 +26,43 @@ cout <<"su equivalente entero es: "<<b ;
 
 //escriba un programa que ingrese un entero de cuatro digitos, separe en sus digiros y los imprime en orden inverso separados por 2 espacios cada uno (usar un entero) ejemplo si ponen 4315 deberia imprimir el entero 5134 
 
-int a;
 
-cout <<"ingrese un entero de 4 digitos";
-cin >> a;
+cout <<"\n ";
+int a1,a2,a3,a4;
 
+cout <<" ingrese un entero de 1 digitos";
+cin >> a1;
+cout <<"\n ";
+cout <<" ingrese un entero de 1 digitos";
+cin >> a2;
+cout <<"\n ";
+cout <<" ingrese un entero de 1 digitos";
+cin >> a3;
+cout <<"\n ";
+cout <<" ingrese un entero de 1 digitos";
+cin >> a4;
+cout <<"\n ";
+cout <<" su numero es de 4 digitos en total :";
+//array a5[4];
+
+//cout <<a5[x] <<" \n ";
+
+int a5[4]= {a1,a2,a3,a4};
+bool g=true;
+int x=0;
+//cout <<a1 <<a2<<a3<<a4<<" \n ";
+cout << a5[0]<<a5[1]<<a5[2]<<a5[3];
+/*
+while (g==true) {
+cout <<a5[x] <<" \n ";
+
+if (x==4)g=false;
+x++;
+}*/
+
+cout <<"\n ";
+cout <<"convirtiendo en inverso "<< a5[3]<< a5[2]<<a5[1]<<a5[0] ;
+cout <<"\n ";
 
 
 
